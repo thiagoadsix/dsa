@@ -20,12 +20,12 @@ Return **the maximum profit you can achieve from this transaction**. If you cann
 
 1. **Initialize Variables**:
 
-- minPrice: Set to Infinity to represent the minimum price encountered so far.
-- maxProfit: Set to 0 to represent the maximum profit achieved so far.
+- `minPrice`: Set to `Infinity` or get the first element from the `prices` array to represent the minimum price encountered so far.
+- `maxProfit`: Set to 0 to represent the maximum profit achieved so far.
 
 2. Iterate Through Prices:
 
-- For each price prices[i]:
+- For each price `prices[i]`:
 - **Update** `minPrice`:
   - If `prices[i]` is less than `minPrice`, set `minPrice = prices[i]`.
 - **Calculate Potential Profit**:
@@ -46,7 +46,7 @@ Return **the maximum profit you can achieve from this transaction**. If you cann
 
 ```
 function maxProfit(prices):
-    minPrice = Infinity
+    minPrice = Infinity // or prices[0]
     maxProfit = 0
 
     for i from 0 to prices.length - 1:
