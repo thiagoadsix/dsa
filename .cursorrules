@@ -1,0 +1,3 @@
+When you are testing, try to test for all the edge cases.
+When you are creating Markdown files, always add an explanation.md file.
+Follow those instructions: - Leetcode [Number] - [Name] - Problem Description - Example or Examples - Approach - Steps - Pseudo-code - Code Implementation - Time and Space Complexity - Conclusion
